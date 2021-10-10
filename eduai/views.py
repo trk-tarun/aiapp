@@ -19,6 +19,7 @@ from django.core.mail import EmailMessage
 from django.views.decorators import gzip
 from django.http import StreamingHttpResponse
 import cv2
+
 import threading
 
 @gzip.gzip_page
