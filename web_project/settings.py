@@ -32,6 +32,14 @@ ALLOWED_HOSTS = []
 #SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
 
+STATICFILES_DIR=[
+    os.path.join(BASE_DIR, "static"),
+    'main/static',
+  ]
+
+
+STATIC_URL = '/static/'
+
 # Application definition
 
 INSTALLED_APPS = [
